@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+#row-input,
+#columns-input {
+  width: 50px;
+}
+
 body {
   background: var(--background-linear-gradient);
   font-family: "Aleo", serif;
