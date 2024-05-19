@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 input.type = 'text';
                 input.classList.add('num-input', 'matrix-entry');
                 input.name = `${i},${j}`;
-                input.value = storedMatrix && storedMatrix[i] && storedMatrix[i][j] !== undefined ? storedMatrix[i][j] : '0';
+                input.value = storedMatrix && storedMatrix[i] && storedMatrix[i][j] !== undefined ? storedMatrix[i][j] : '';
                 rowDiv.appendChild(input);
             }
             matrixForm.appendChild(rowDiv);
