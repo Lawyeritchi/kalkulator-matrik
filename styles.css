@@ -129,7 +129,7 @@ nav button.active {
 
 .matrix-entry {
   margin: 0.25rem;
-  width: 30px;
+  width: 45px;
   padding: 0.5rem;
   border: 2px solid rgb(147, 147, 147);
   border-radius: 7px;
@@ -151,7 +151,7 @@ nav button.active {
 
 .matrix-cell {
   margin: 0.25rem;
-  width: 30px;
+  width: 45px;
   padding: 0.5rem;
   border: 2px solid rgb(147, 147, 147);
   border-radius: 7px;
